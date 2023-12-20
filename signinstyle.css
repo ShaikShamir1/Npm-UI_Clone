@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+body{
+    background: #F7F7F7;
+}
+.topl{
+    height:0.65rem;
+    background-image:linear-gradient(to right , #fb8817, #ff4b01, #c12127, #e02aff);
+}
+main{
+    height: 53.9rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin:3.2rem auto 1.5rem ;
+    height: 5.21rem;
+    opacity: 85%;
+}
+form{
+    display: block;
+    border: solid transparent;
+    height: 37.3rem;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    padding: 2.5rem 2.5rem 0;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    position: relative;
+}
+article{
+    margin-left: auto;
+    margin-right: auto;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background: #DDDDDD;
+}
+
+h1{
+    color: dimgray;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin:25px 0 20px;
+    border-bottom:0.5px solid #E5E5E5;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 15px;
+    border: 1px solid rgba(105, 105, 105, 0.66);
+    border-radius: 5px;
+}
+input[type=password]{
+    width: 98%;
+    height: 2.3rem;
+}
+form span{
+    display: block;
+    font-size: 13px;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+input[type=button]{
+    display: block;
+    width: 100%;
+    height: 2.3rem;
+    margin-bottom: 1.9rem;
+    background: white;
+    border: 1px solid #8f8f8f7d;
+    border-radius: 5px;
+    font-size: 15px;
+}
+input[type=button]:hover{
+    background: linear-gradient(to top,#484f5923,white);
+}
+form a:last-child{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #484F59;
+    font-weight: 600;
+}
+form .pw,form .pw a{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 500;
+}
+#show{
+    right: 3.3rem;
+    top: 27.3rem;
+    position: absolute;
+    color: dimgray;
+    background-color: white;
+    border-color: transparent;
+    cursor: pointer;
+    width: 4rem;
+    border-radius: 5px;
+}
+#show:hover{
+    background-color: #F2F2F2;
+}
+
+
+
+@media (max-width:600px) {
+
+    body{
+        height: 30rem;
+    }
+    main{
+        height: 42rem;
+        width: 22.5rem;
+    }
+    header img{
+        margin: -0.3rem auto 0.8rem;
+        height: 4.4rem;
+        
+    }
+    form{
+        height: 37rem;
+        padding: 2rem;
+    }
+    #show{
+        top: 26.9rem;
+        right: 2.7rem;
+    }
+}

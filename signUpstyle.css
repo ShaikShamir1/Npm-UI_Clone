@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    line-height: 1.5;
+}
+main{
+    height: 60rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topl{
+    height:0.65rem;
+    background-image:linear-gradient(to right , #fb8817, #ff4b01, #c12127, #e02aff);
+}
+img{
+    display: block;
+    margin:3.3rem auto 2rem ;
+    height: 5.2rem;
+    opacity: 85%;
+}
+form{
+    display: block;
+    border: solid transparent;
+    height: 35rem;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    padding: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+h1{
+    color: dimgray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 15px;
+    border: 1px solid rgba(105, 105, 105, 0.66);
+    border-radius: 5px;
+}   
+#show{
+    top: 22.1rem;
+    right: 3rem;
+    position: absolute;
+    color: dimgray;
+    background-color: white;
+    border-color: transparent;
+    cursor: pointer;
+    width: 4rem;
+    border-radius: 5px;
+}
+#show:hover{
+    background-color: #F2F2F2;
+}
+form span{
+    display: block;
+    font-size: 13px;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+input[type=checkbox]{
+    display: inline;
+    margin:-20px 0 1rem;
+}
+.box2{
+    display: flex;
+}
+.box2 span{
+    /* display: inline-block; */
+    padding-left: 1rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+}
+
+input[type=button]{
+    display: block;
+    width: 100%;
+    height: 2.3rem;
+    margin-bottom: 5rem;
+    opacity: 25%;
+    border: 1px solid rgba(105, 105, 105, 0.66);
+    border-radius: 5px;
+}
+article>span,article>a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+form span>a{    
+    color: black;
+}
+article>a{
+    color: #484F59;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+
+    main{
+        height: 49rem;
+        width: 22.5rem;
+    }
+    header img{
+        margin: -0.5rem auto 0.8rem;
+        height: 4.4rem;
+        
+    }
+    form{
+        height: 38rem;
+        padding: 2rem;
+    }
+    #show{
+        top: 23.7rem;   
+    }
+    #pa{
+        margin-top: 25px;
+    }
+    article>span{
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    article>a{
+        font-size: 0.95rem;
+    }
+}
